@@ -100,6 +100,7 @@ public class LiquidMetal extends SlimefunItem {
         MELTED_DUSTS.put(SlimefunItems.TIN_DUST, SlimefunItems.TIN_INGOT);
         MELTED_DUSTS.put(SlimefunItems.MAGNESIUM_DUST, SlimefunItems.MAGNESIUM_INGOT);
         MELTED_DUSTS.put(SlimefunItems.ZINC_DUST, SlimefunItems.ZINC_INGOT);
+        //New recipe added
     }
 
     public LiquidMetal(SlimefunItemStack item, ItemStack solid) {
@@ -153,5 +154,4 @@ public class LiquidMetal extends SlimefunItem {
     public static HashBiMap<SlimefunItemStack, ItemStack> getLiquidDusts() {
         return MELTED_DUSTS;
     }
-
 }
